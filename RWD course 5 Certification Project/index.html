@@ -2,9 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+<h1 id="title">Survey Form App</h1>
+<p id="description">Thank you for making us better!</p>
+
+<form id="survey-form">
+    <label id="name-label" >
+        <input id="name" placeholder="Your name is..." required/>
+    </label>
+    <label id="number-label" >
+        <input id="number" type="number" min="18" max="35" placeholder="Your number is..." required/>
+    </label>
+    <label id="email-label" >
+        <input id="email" type="email" placeholder="Your email is..." required/>
+    </label>
+
+    <select id="dropdown">
+        <option value="0"></option>
+        <option value="1"></option>
+    </select>
+    <label><input type="radio" name="gender" value="1"/>Male</label>
+    <label><input type="radio" name="gender" value="0"/>feMale</label>
+    <label><input type="checkbox" name="contry" value="1"/>America</label>
+    <label><input type="checkbox" name="contry" value="0"/>Other</label>
+    <textarea></textarea>
+    <button id="submit">Submit</button>
+</form>
 
 </body>
 </html>
