@@ -4,7 +4,8 @@ body {
     font-family: Tahoma, serif;
     font-size: 16px;
     margin: 2vh 0 0 0;
-    background: linear-gradient(#1b1b4f, #2b3bdf, #3b5b4f, #4b3b4f, #5b1b4f)
+    background: linear-gradient(#1b1b4f, #2b3bdf, #3b5b4f, #4b3b4f, #5b1b4f);
+
 }
 
 h1, p {
@@ -12,11 +13,15 @@ h1, p {
     text-align: center;
 }
 
-form {
+.survey-form {
     width: 60%;
-    margin:0 auto;
-    background-color: darkred;
+    margin: 0 auto;
+    background: red;
     height: 80vh;
-
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
 }
+
+
 
